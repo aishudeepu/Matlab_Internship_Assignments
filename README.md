@@ -1,119 +1,93 @@
-```html
-<h1 align="center">💼 Internship Journey</h1>
+# Weather App 🌦️
 
-<p align="center">
-  Documenting my daily assignments, projects, learning outcomes, and achievements throughout my internship.
-</p>
+A simple Python application that fetches and displays real-time weather information for any city using a weather API.
 
-<hr>
+## Features
 
-<h2>🚀 About This Repository</h2>
+- Search weather by city name
+- Displays temperature, humidity, and weather conditions
+- User-friendly command-line interface
+- Real-time weather updates
 
-<p>
-This repository contains all the tasks, projects, notes, and documentation completed during my internship. It serves as a record of my progress, technical growth, and contributions.
-</p>
+## Technologies Used
 
-<h2>📅 Daily Work Log</h2>
+- Python 3
+- Requests Library
+- OpenWeatherMap API
 
-<table>
-  <tr>
-    <th>Day</th>
-    <th>Task</th>
-    <th>Status</th>
-  </tr>
+## Installation
 
-  <tr>
-    <td>Day 1</td>
-    <td>Environment Setup & Introduction</td>
-    <td>✅ Completed</td>
-  </tr>
+1. Clone the repository:
 
-  <tr>
-    <td>Day 2</td>
-    <td>Git & GitHub Workflow</td>
-    <td>✅ Completed</td>
-  </tr>
-
-  <tr>
-    <td>Day 3</td>
-    <td>Assigned Development Tasks</td>
-    <td>✅ Completed</td>
-  </tr>
-
-  <!-- Add more days here -->
-
-</table>
-
-<h2>📂 Projects</h2>
-
-<h3>🔹 Project 1 - Project Name</h3>
-
-<ul>
-  <li><b>Description:</b> Brief project overview.</li>
-  <li><b>Technologies:</b> HTML, CSS, JavaScript, React, etc.</li>
-  <li><b>Key Contributions:</b></li>
-  <ul>
-    <li>Implemented features</li>
-    <li>Fixed bugs</li>
-    <li>Improved UI/UX</li>
-  </ul>
-</ul>
-
-<h3>🔹 Project 2 - Project Name</h3>
-
-<ul>
-  <li><b>Description:</b> Brief project overview.</li>
-  <li><b>Technologies:</b> Python, Flask, MySQL, etc.</li>
-  <li><b>Key Contributions:</b></li>
-  <ul>
-    <li>Database design</li>
-    <li>API development</li>
-    <li>Testing & deployment</li>
-  </ul>
-</ul>
-
-<h2>🛠 Tech Stack</h2>
-
-<p>
-HTML • CSS • JavaScript • React • Node.js • Python • Git • GitHub
-</p>
-
-<h2>📈 Skills Gained</h2>
-
-<ul>
-  <li>Version Control (Git & GitHub)</li>
-  <li>Team Collaboration</li>
-  <li>Software Development Lifecycle</li>
-  <li>Problem Solving</li>
-  <li>Debugging & Testing</li>
-  <li>Project Documentation</li>
-</ul>
-
-<h2>🏆 Achievements</h2>
-
-<ul>
-  <li>Completed all assigned tasks on schedule.</li>
-  <li>Contributed to real-world development projects.</li>
-  <li>Learned industry-standard development practices.</li>
-  <li>Improved coding and collaboration skills.</li>
-</ul>
-
-<h2>📊 Progress</h2>
-
-<p>
-████████████████████░░ 90% Complete
-</p>
-
-<h2>📬 Connect With Me</h2>
-
-<p>
-<a href="https://github.com/yourusername">GitHub</a> |
-<a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
-</p>
-
-<hr>
-
-<p align="center">
-✨ Learning • Building • Growing Every Day ✨
-</p>
+```bash
+git clone https://github.com/yourusername/weather-app.git
 ```
+
+2. Navigate to the project folder:
+
+```bash
+cd weather-app
+```
+
+3. Install dependencies:
+
+```bash
+pip install requests
+```
+
+## Configuration
+
+Create a file named `config.py` and add your API key:
+
+```python
+API_KEY = "your_api_key_here"
+```
+
+## Usage
+
+Run the application:
+
+```bash
+python weather.py
+```
+
+Example:
+
+```text
+Enter city name: London
+
+Weather in London
+Temperature: 18°C
+Humidity: 72%
+Condition: Cloudy
+```
+
+## Project Structure
+
+```text
+weather-app/
+│
+├── weather.py
+├── config.py
+├── requirements.txt
+└── README.md
+```
+
+## Future Improvements
+
+- 7-day weather forecast
+- Graphical user interface (GUI)
+- Weather alerts and notifications
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Your Name
+GitHub: @yourusername
